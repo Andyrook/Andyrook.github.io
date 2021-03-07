@@ -70,7 +70,7 @@ img {
 }
 .logo {
 	padding: 0 0 0 20px;
-	width: 190px;
+	width: 278px;
 }
 .mainMenu {
 
@@ -113,18 +113,18 @@ img {
 
 #top-menu a:hover {
     color: #ffffff;
-	background: #72b842;
+	background: #234BC2;
 }
 
 #top-menu li.active a {
     color: #ffffff;
-	background: #72b842;
+	background: #234BC2;
 	line-height: 60px;
 	font-size: 14px;
 }
 
 .btn-primary {
-	background-color: #72b842;
+	background-color: #234BC2;
 	border-color: #5ea32e;
 }
 
@@ -189,7 +189,7 @@ img {
 	vertical-align: middle;
 	text-align: center;
 	padding: 20px 30px;
-	background: #72b842;
+	background: #234BC2;
 	border-radius: 5px;
 	font-size: 32px;
 	color: #ffffff;
@@ -202,7 +202,7 @@ img {
     width: 92%;
     height: 100%;
 	border-radius: 5px;
-    background: #72b842;
+    background: #234BC2;
     visibility: hidden\0/;
     opacity: 0\0/;
     transition: all 0.25s ease-in-out;
@@ -257,7 +257,7 @@ img {
 
 .portfolio-thumb img { width: 100%; height: auto; }
 
-.portfolio-thumb .overlay-p { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #72b842; visibility: hidden; opacity: 0; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
+.portfolio-thumb .overlay-p { position: absolute; top: 0; left: 0; width: 100%; height: 100%; background-color: #234BC2; visibility: hidden; opacity: 0; -webkit-transition: all 0.2s ease-in-out; -moz-transition: all 0.2s ease-in-out; -ms-transition: all 0.2s ease-in-out; -o-transition: all 0.2s ease-in-out; transition: all 0.2s ease-in-out; }
 
 .portfolio-thumb .overlay-p a { position: absolute; top: 10%; margin-top: -12px; left: 10%; width: 80%; margin-left: -15px; color: white; text-align: center; }
 .portfolio-thumb .overlay-p a ul { text-align: center; margin-top:0.1em;}
@@ -293,7 +293,7 @@ img {
 }
 
 .templatemo_wrapperblogbox a.fa:hover {
-	background: #72b842;
+	background: #234BC2;
 }
 
 .templatemo_wrapperblogbox .tooltip1, .templatemo_wrapperblogbox .tooltip2, .templatemo_wrapperblogbox .tooltip3, .templatemo_wrapperblogbox .tooltip4 {
@@ -305,7 +305,7 @@ img {
 
 .templatemo_wrapperblogbox .tooltip1:hover:after, .templatemo_wrapperblogbox .tooltip2:hover:after,
 .templatemo_wrapperblogbox .tooltip3:hover:after, .templatemo_wrapperblogbox .tooltip4:hover:after {
-    background: #72b842;
+    background: #234BC2;
     top: 33px;
     color: #fff;
     content: attr(title);
@@ -352,7 +352,7 @@ img {
 	color: #ffffff;
 }
 .templatemo_blogtext span.right	a:hover i	{
-	color: #72b842;
+	color: #234BC2;
 }
 
 .templatemo_partner	{ padding: 80px 0px;}
@@ -490,7 +490,7 @@ img {
 }
 .templatemo_footer ul li:before {
     content: "\002022 ";
-    color: #72b842; 
+    color: #234BC2; 
 	font-size: 2.5em;
     vertical-align: middle;
 	line-height: 30px;
@@ -504,7 +504,7 @@ img {
 
 .templatemo_footer span.left {
 	float: left;
-	color: #72b842;
+	color: #234BC2;
 	font-size: 1.5em;
 	text-align: left;
 	line-height: 30px;
@@ -542,7 +542,7 @@ img {
 }
 
 .templatemo_bottom .right a:hover div.soc{
-	background: #72b842;
+	background: #234BC2;
 }
 
 #templatemo_flicker	{}
@@ -581,7 +581,7 @@ and (max-width : 480px) {
 	#top-menu li a	{ padding: 0px;}
 	#top-menu li.active a {
     color: #ffffff;
-	background: #72b842;	
+	background: #234BC2;	
 	}
 	.templatemo_col12	{
 		width: 100%;
@@ -653,7 +653,7 @@ and (max-width : 480px) {
 	}
 	#top-menu li.active a {
     color: #ffffff;
-	background: #72b842;
+	background: #234BC2;
 	line-height: 40px;
 	}
 	
