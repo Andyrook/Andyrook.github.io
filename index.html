@@ -372,62 +372,7 @@ Founding Director iQ Science Ltd (NZ) (2020)</p>
   <button type="submit">Send</button>
 </form>
           
-          
-          
-          <form method="post" action="http://formspree.io/andrew.kinghorn@alhenabio.com"><input type="email" name="_replyto"><textarea   name="body"></textarea><input type="submit" value="Send"></form>
-          
-          
-          <form method="post" action="https://formspree.io/andrew.kinghorn@alhenabio.com">
-<div class="row2">
- <input type="hidden" name="_subject" id="_subject" value="Landing(Bottom)" />
-  <input type="hidden" name="_format" value="plain" />
-   <input type="hidden" name="_next" value="thankyou.html" />
-   <input type="text" name="_gotcha" style="display:none" />
-           <div class="12u$"><input type="text" name="Name" placeholder="Name" id="contact_name" required="required"/></div>
-           
-           <div class="12u$"><input type="text" name="E-mail" placeholder="Email" id="email_id" required="required" /></div>
-            <div class="12u$"><textarea name="Message" placeholder="Message" id="message"></textarea></div>
-            <div class="12u$"><input type="button" value="Send Message" id="submitButton" /></div>
-
-   </div>
-</form>
-
-<script>
-
-    $(document).ready(function() {
-
-        $('#submitButton').on('click', function() {
-
-            var contact_name= $('#contact_name').val();
-            
-            var email_id= $('#email_id').val();
-            var message= $('#message').val();
-            var subject= $('#_subject').val();
-
-
-            //send to formspree via ajax
-            $.ajax({
-                url:'https://formspree.io/my@email.com',
-                method:'POST',
-                data:{
-                    name: contact_name,               
-                    email: email_id,
-                    
-                    comments: message,
-                    _subject: subject,
-                },
-                dataType:"json",
-                success:function() {
-                    alert('your mail has been sent!');               
-                }   
-
-            });     
-
-        });
-
-    });  
-
-</script>
+   
           
             <form role="form">
               <div class="form-group">
