@@ -133,7 +133,12 @@ img {
 	border-color: #5ea32e;
 }
 
-.templatemo_caption p { color: #ffffff; background: rgba(0, 0, 0, 0.32); padding: 10px; font-size: 12px; }
+.templatemo_caption p {
+	color: #ffffff;
+	background: rgba(0, 0, 0, 0.32);
+	padding: 10px;
+	font-size: 16px;
+}
 
 .templatemo_caption	{
 	margin-left: 20%;
@@ -712,14 +717,14 @@ and (max-width : 480px) {
 @media(min-width:600px) and (max-width:769px){
 	h1	{ font-size: 1em;}
 	.templatemo_slidetitle { font-size: 0.8em;}
-	.templatemo_caption	{ font-size: 12px; top: 170px;  width: 90%; margin-left: 5%; }
+	.templatemo_caption	{ font-size: 16px; top: 170px;  width: 90%; margin-left: 5%; }
 	.rmargin	{ right: 3%; }
 	.btn	{ font-size: 12px; padding: 3px 5px;}
 	}
 @media(min-width:768px) and (max-width:992px){
 	 h1	{ font-size: 1em;}
 	.templatemo_slidetitle { font-size: 0.8em;}
-	.templatemo_caption	{ font-size: 12px; margin-left: 15%; top: 18%;}
+	.templatemo_caption	{ font-size: 16px; margin-left: 15%; top: 18%;}
 	.btn	{ font-size: 13px; padding: 3px 5px;}
 	.templatemo_container {
 	width: 100%;
@@ -767,7 +772,7 @@ and (max-width : 540px)	{
 }
 
 /* iPads (portrait and landscape) ----------- */
-@media only screen 
+@media only screen
 and (min-device-width : 768px) 
 and (max-device-width : 1024px) {
 	#slider-direction-nav,
